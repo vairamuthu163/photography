@@ -1,0 +1,26 @@
+.feed{
+  top: 50%;
+    display: grid;
+    /*  to Arrange the items in the center it shows only one box  flex-direction: column;*/
+  grid-gap: 8px; 
+  /* grid-template-columns: 1fr 1fr 1fr;*/
+  position: relative;
+
+}
+@media only screen and (min-width: 600px) {
+  .feed{
+    grid-template-columns: 1fr 1fr; 
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .feed{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .feed{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+ 

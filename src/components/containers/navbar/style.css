@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    padding:12px 24px;
+    background-color: white; 
+}
+.navbar > p{
+    justify-content: flex-start;
+}
+.navbar > button{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.navbar__img{
+    height:55px;
+    border-radius: 100px;
+}
